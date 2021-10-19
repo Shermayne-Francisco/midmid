@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-text-center">
+
+  <ion-card class="background-color">
+    <div class="login">
+      <div class="icon">
+        <ion-icon name="person-circle-outline" color="dark"></ion-icon>
+      </div>
+      
+      <ion-label>LOGIN</ion-label> 
+  
+      <ion-card-content>
+        <ion-item class="text">
+          <ion-label position="floating">Enter your email</ion-label>
+          <ion-textarea placeholder="sample@email.com"></ion-textarea>
+        </ion-item>
+        <ion-item class="text">
+          <ion-label position="floating">Enter your password</ion-label>
+          <ion-textarea placeholder="Password"></ion-textarea>
+        </ion-item>
+
+        <div class="forgot">
+          <ion-text>Forgot Password?</ion-text>
+        </div> 
+      </ion-card-content>  
+    </div>
+  </ion-card>
+ 
+
+  <div class="btn">
+    <ion-button expand="block" fill="solid" color="primary">
+      Login
+      <ion-icon slot="end" name="log-in-outline"></ion-icon>
+    </ion-button>
+  </div>
+</ion-content>

@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Signup</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-text-center">
+
+  <ion-card class="background-color">
+    <div class="signup">
+      <div class="icon">
+        <img src="assets/signup.png" alt="sign" height="50px" width="50px">
+      </div>
+      
+      <ion-label>SIGN UP</ion-label> 
+  
+      <ion-card-content>
+        <ion-item class="text">
+          <ion-label position="floating">Enter Full Name</ion-label>
+          <ion-textarea placeholder="Full Name"></ion-textarea>
+        </ion-item>
+        <ion-item class="text">
+          <ion-label position="floating">Email</ion-label>
+          <ion-textarea placeholder="sample@email.com"></ion-textarea>
+        </ion-item>
+        <ion-item class="text">
+          <ion-label position="floating">Password</ion-label>
+          <ion-textarea placeholder="****"></ion-textarea>
+        </ion-item>
+        <ion-item class="text">
+          <ion-label position="floating">Retype Password</ion-label>
+          <ion-textarea placeholder="****"></ion-textarea>
+        </ion-item>
+
+        <div class="check">
+          <ion-checkbox class="box"></ion-checkbox>
+          <ion-label>I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a></ion-label>
+        </div>
+      </ion-card-content>  
+    </div>
+  </ion-card>
+ 
+
+  <div class="btn">
+    <ion-button expand="block" fill="solid" color="secondary">
+      Signup
+      <ion-icon slot="end" name="create-outline"></ion-icon>
+    </ion-button>
+  </div>
+</ion-content>

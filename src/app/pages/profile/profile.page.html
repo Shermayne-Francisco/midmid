@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="background-color">
+    <div class="profile">
+      <img src="assets/profile.png" alt="icons" height="35%" width="35%">
+      <ion-label class="name">Jane Doe</ion-label>
+      <div>
+        <ion-label class="email"><a href="#">janedoe@gmail.com</a></ion-label>
+      </div>
+    
+  
+      <ion-card-content>
+        
+          <ion-item button (click)="buttonClick()">
+            <ion-label>Edit Profile</ion-label>
+            <ion-badge slot="end" color="light"></ion-badge>
+          </ion-item>
+
+          <ion-item button (click)="buttonClick()">
+            <ion-label>Personal Info</ion-label>
+            <ion-badge slot="end" color="light"></ion-badge>
+          </ion-item>
+
+          <ion-item button (click)="buttonClick()">
+            <ion-label>Bank Account Info</ion-label>
+            <ion-badge slot="end" color="light"></ion-badge>
+          </ion-item>
+
+          <ion-item button (click)="buttonClick()">
+            <ion-label>Account Settings</ion-label>
+            <ion-badge slot="end" color="light"></ion-badge>
+          </ion-item>
+
+          <ion-item button (click)="buttonClick()">
+            <ion-label>Survey History</ion-label>
+            <ion-badge slot="end" color="light"></ion-badge>
+          </ion-item>
+        
+      </ion-card-content>  
+    </div>
+  </ion-card>
+</ion-content>
+
